@@ -285,12 +285,7 @@ img:hover {
 	}*/
 /*}*/
 
-@media only screen and (max-width: 960px) {
-
-	* {
-		/*font-size: 36px;*/
-	}
-
+@media only screen and (max-width: 800px) {
 	.wrapper {
 		grid-template-rows: 5rem 1fr 1fr 1fr 1fr 1fr;
 		grid-template-columns: 1fr;
