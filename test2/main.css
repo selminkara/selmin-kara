@@ -253,11 +253,11 @@ img:hover {
 	}
 }*/
 
-@media only screen and (max-width: 920px) {
-	.wrapper {
+/*@media only screen and (max-width: 920px) {*/
+	/*.wrapper {*/
 		/*grid-template-rows: 1fr 2rem 2rem 2rem 2rem 2rem;*/
-		grid-template-columns: 18rem 1fr;
-	}
+		/*grid-template-columns: 18rem 1fr;*/
+	/*}*/
 
 /*	.box.research {
 		margin-top: 2rem;
@@ -283,11 +283,11 @@ img:hover {
 		margin-top: 10rem;
 		margin-left: 10rem;
 	}*/
-}
+/*}*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 920px) {
 	.wrapper {
-		grid-template-rows: 6rem 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 5rem 1fr 1fr 1fr 1fr 1fr;
 		grid-template-columns: 1fr;
 	}
 
