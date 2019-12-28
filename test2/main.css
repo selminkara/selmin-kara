@@ -285,7 +285,7 @@ img:hover {
 	}*/
 /*}*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 720px) {
 	.wrapper {
 		grid-template-rows: 5rem 1fr 1fr 1fr 1fr 1fr;
 		grid-template-columns: 1fr;
