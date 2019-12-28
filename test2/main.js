@@ -6,11 +6,13 @@ $('.box.bio').click(function(){
 	// $('.box.events').css({'z-index':'96'})
 	// $('.box.contact').css({'z-index':'95'})
 
+	$('.wrapper').css({'grid-template-rows':'1fr 5rem 5rem 5rem 5rem'})
+
 	$('.box').css({'background':'black'})
 	$('.desc').css({'color':'white'})
-	$('a').css({'color':'white'})
+	// $('.box.bio a').css({'color':'white'})
 
-	$(this).css({'height':'50vh','overflow':'auto','background':'white'})
+	$(this).css({'height':'auto','overflow':'auto','background':'white'})
 	$('.box.bio .desc').css({'color':'black'})
 	$('.box.bio a').css({'color':'black'})
 
@@ -29,11 +31,13 @@ $('.box.research').click(function(){
 	// $('.box.events').css({'z-index':'96'})
 	// $('.box.contact').css({'z-index':'95'})
 
+	$('.wrapper').css({'grid-template-rows':'5rem 1fr 5rem 5rem 5rem'})
+
 	$('.box').css({'background':'black'})
 	$('.desc').css({'color':'white'})
-	$('a').css({'color':'white'})
+	// $('.box.research a').css({'color':'white'})
 
-	$(this).css({'height':'50vh','overflow':'auto','background':'white'})
+	$(this).css({'height':'auto','overflow':'auto','background':'white'})
 	$('.box.research .desc').css({'color':'black'})
 	$('.box.research a').css({'color':'black'})
 
@@ -52,11 +56,13 @@ $('.box.pub').click(function(){
 	// $('.box.events').css({'z-index':'96'})
 	// $('.box.contact').css({'z-index':'95'})
 
+	$('.wrapper').css({'grid-template-rows':'5rem 5rem 1fr 5rem 5rem'})
+
 	$('.box').css({'background':'black'})
 	$('.desc').css({'color':'white'})
-	$('a').css({'color':'white'})
+	// $('.box.pub a').css({'color':'white'})
 
-	$(this).css({'height':'50vh','overflow':'auto','background':'white'})
+	$(this).css({'height':'auto','overflow':'auto','background':'white'})
 	$('.box.pub .desc').css({'color':'black'})
 	$('.box.pub a').css({'color':'black'})
 
@@ -75,11 +81,13 @@ $('.box.teach').click(function(){
 	// $('.box.events').css({'z-index':'96'})
 	// $('.box.contact').css({'z-index':'95'})
 
+	$('.wrapper').css({'grid-template-rows':'5rem 5rem 5rem 1fr 5rem'})
+
 	$('.box').css({'background':'black'})
 	$('.desc').css({'color':'white'})
-	$('a').css({'color':'white'})
+	// $('.box.teach a').css({'color':'white'})
 
-	$(this).css({'height':'50vh','overflow':'auto','background':'white'})
+	$(this).css({'height':'auto','overflow':'auto','background':'white'})
 	$('.box.teach .desc').css({'color':'black'})
 	$('.box.teach a').css({'color':'black'})
 
@@ -98,11 +106,13 @@ $('.box.events').click(function(){
 	// $('.box.teach').css({'z-index':'96'})
 	// $('.box.contact').css({'z-index':'95'})
 
+	$('.wrapper').css({'grid-template-rows':'5rem 5rem 5rem 5rem 1fr'})
+
 	$('.box').css({'background':'black'})
 	$('.desc').css({'color':'white'})
-	$('a').css({'color':'white'})
+	// $('.box.events a').css({'color':'white'})
 
-	$(this).css({'height':'50vh','overflow':'auto','background':'white'})
+	$(this).css({'height':'auto','overflow':'auto','background':'white'})
 	$('.box.events .desc').css({'color':'black'})
 	$('.box.events a').css({'color':'black'})
 
@@ -123,9 +133,9 @@ $('.box.contact').click(function(){
 
 	$('.box').css({'background':'black'})
 	$('.desc').css({'color':'white'})
-	$('a').css({'color':'white'})
+	// $('.box.contact a').css({'color':'white'})
 
-	$(this).css({'height':'50vh','overflow':'auto','background':'white'})
+	$(this).css({'height':'auto','overflow':'auto','background':'white'})
 	$('.box.contact .desc').css({'color':'black'})
 	$('.box.contact a').css({'color':'black'})
 

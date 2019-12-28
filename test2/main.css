@@ -87,11 +87,22 @@ a:hover {
 
 	font-family: 'Quattrocento', serif;
 	font-size: 2rem;
+
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 
 .desc {
 	margin-top: 1.25rem;
 	line-height: 1.5rem;
+
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.bio1 {
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
 li {
@@ -106,18 +117,22 @@ img {
 
 	/*background-color: yellow;*/
 	filter: grayscale(100%);
-	mix-blend-mode: multiply;
 }
 
 img:hover {
 	filter: none;
 }
 
+.profile {
+	width: auto;
+	height: 12rem;
+}
+
 .wrapper {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-columns: 24rem 1fr;
-	/*grid-gap: 0.25rem;*/
+	grid-gap: 0.25rem;
 
 	position: fixed;
 	width: calc(100% - 0rem);
@@ -172,6 +187,11 @@ img:hover {
 }
 
 .box.bio {
+	display: grid;
+	grid-template-columns: 10rem 1fr;
+
+	padding-bottom: 3rem;
+
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 1;
