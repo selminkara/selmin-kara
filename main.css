@@ -216,7 +216,7 @@ img.smaller {
 
 
 
-@media only screen and (max-width: 660px) {
+/* @media only screen and (max-width: 660px) {
 	
 	header {
 		overflow: auto;
@@ -244,6 +244,6 @@ img.smaller {
 		grid-template: auto / 1fr 3fr;
 	}
 	
-}
+} */
 
 
