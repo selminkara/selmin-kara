@@ -7,6 +7,9 @@ I'm gonna be leaving you notes on where and how to make your edits in these brac
 To start editing, click on the PENCIL ICON in the top right of this box. 
 Once you're ready to save, just click on the green COMMIT CHANGES button at the bottom of the page (you can skip filling in the description boxes).
 
+If you find it difficult to scroll horizontally for all the long lines of text, click on the box in the top right that says NO WRAP and change it to SOFT WRAP.
+This is just for your viewing and won't change how your website looks!
+
 To find a section you want to edit/add to, press CMD + F and type "#[section]" (i.e. #research) and hit ENTER. 
 First, the section's sidebar link will be highlighted, then pressing CMD + F then ENTER the second time will lead you to the section's content.
 
@@ -22,14 +25,20 @@ TEXT:
 IMAGES:
 
 	To add NEW images directly from YOUR COMPUTER, first upload them to the "img" folder (right click on "selmin-kara" and open it in a new tab, 
-	click on the blue "img" folder, then click on ADD FILE on the right side of the page)
+	click on the blue "img" folder, then click on ADD FILE on the right side of the page and select UPLOAD FILES, drag your file into the box, then
+	finally scroll to the bottom of the page and click on the green COMMIT CHANGES button)
 	Then, copy and paste this line of code:
-		<img src="img/[FILE NAME]">
+		<img src="img/[FILE_NAME]">
 	...and paste the name of the file with the exact capitalization and extension (i.e. Events_Poster1.jpg) and avoid spaces in the name.
 
 	To add NEW images directly from ONLINE, copy and paste this line of code:
-		<img src="img/[FILE NAME]">
-	...and paste the name of the file with the exact capitalization and extension (i.e. Events_Poster1.jpg)
+		<img src="[URL_NAME]">
+	...and paste the url exactly as is (with the https://) and ensure the link you use ENDS WITH THE FILE EXTENSION (.jpg .png .gif)
+
+	To make the image smaller, use this line of code for UPLOADED IMAGES:
+		<img class="smaller" src="img/[FILE_NAME]">
+	...and this line of code for IMAGES FROM ONLINE:
+		<img class="smaller" src="[URL_NAME]">
 
 
 Anything without a comment from me you can disregard :)
@@ -669,19 +678,36 @@ Anything without a comment from me you can disregard :)
 
 			</div>
 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			<div class="section" id="teach">
 				
 				
+				<!--This is the title of the "Teaching" section on the right side-->
 				<a class="sub-title" href="#teach"><h2>Teaching</h2></a>
 				
 				
 				<h3>OCAD University, 2011–Present</h3>
 				
 				
+				<!--This is the title of the "Undergraduate Courses" section-->
 				<h3>Undergraduate Courses:</h3>
 				
 				
 					<ul>
+						
+						<!--These are the items under the "Undergraduate Courses" section-->
+						
 						<li>VISM 2001—Introduction to Film Studies</li>
 						
 						<li>VISM 3B03—Animation: Critical Perspectives</li>
@@ -698,10 +724,12 @@ Anything without a comment from me you can disregard :)
 					</ul>
 
 				
-				
+				<!--This is the title of the "Graduate Courses/Seminars" section-->
 				<h3>Graduate Courses/Seminars:</h3>
 
 					<ul>
+						<!--These are the items under the "Graduate Courses/Seminars" section-->
+						
 						<li>VISM 6006 Screens and Digital Imagery</li>
 						
 						<li>VISM 6003 Issues in New Media Art: “Ecological Perspectives in New Media”</li>
@@ -729,19 +757,32 @@ Anything without a comment from me you can disregard :)
 
 
 			<div class="section" id="students">
+				
+				
+				<!--This is the title of the "Teaching" section on the right side-->
 				<a class="sub-title" href="#students"><h2>Students</h2></a>
 
-				<h3>
-					Graduate Student Supervision:
-				</h3>
+				
+				
+				<!--This is the title of the "Graduate Student Supervision" section-->
+				<h3>Graduate Student Supervision:</h3>
+				
+				
 				<ul>
 					<li>
+						<!--This is the title for "Current" students-->
 						<h3>Current:</h3>
 					</li>
+					
 					<ul>
+						<!--This is the list of "Current" students-->
+						
 						<li><!--CURRENT STUDENT GOES HERE--></li>
+						
 						<li><!--CURRENT STUDENT GOES HERE--></li>
+						
 						<li><!--CURRENT STUDENT GOES HERE--></li>
+						
 						<li><!--CURRENT STUDENT GOES HERE--></li>
 					</ul>
 
@@ -749,11 +790,14 @@ Anything without a comment from me you can disregard :)
 
 					
 					<li>
+						<!--This is the title for "Completed (Principal Advisor)" students-->
 						<h3>Completed (Principal Advisor):</h3>
 					</li>
 
 					
 					<ul>
+						<!--This is the list of "Completed (Principal Advisor)" students-->
+						
 						<li>
 							Shahrzad Amin, Principal Advisor, Untitled MFA project, OCAD University
 						</li>
@@ -794,11 +838,14 @@ Anything without a comment from me you can disregard :)
 					
 
 				<li>
+					<!--This is the title for "Completed (Committee Member)" students-->
 					<h3>Completed (Committee Member):</h3>
 				</li>
 
 					
 				<ul>
+					<!--This is the list of "Completed (Committee Member)" students-->
+					
 					<li>
 						Valentyna Onisko, MFA Thesis in Criticism and Curatorial Practice: “There is Bread and Salt Between Us: Negotiating Subjecthood Through Gestures of Hospitality,” OCAD 2017
 					</li>
@@ -837,10 +884,21 @@ Anything without a comment from me you can disregard :)
 					<li>
 						Faraz Anoushah Pour, MRP in Interdisciplinary Master’s in Art, Media and Design: “In the Space of a Day,” OCAD 2014 
 					</li>
+					
+				</ul>
+					
+					
+					
+				<li>
+					<!--This is the title for "Completed (External Examiner)" students-->
+					<h3>Completed (External Examiner):</h3>
+				</li>
 
 					
+				<ul>
+					<!--This is the list of "Completed (External Examiner)" students-->
+					
 					<li>
-						Completed (External Examiner)
 						Aaron Pellerin, PhD Dissertation in Film Studies: “Everyday Transcendence: Contemporary Art Film and the Return to Right Now,” Wayne State University 2019
 					</li>
 
@@ -856,15 +914,13 @@ Anything without a comment from me you can disregard :)
 					
 
 
-
-
-
-				<h3>
-					Sample student work:
-				</h3>
+				<!--This is the title for the "Sample student work" section-->
+				<h3>Sample student work:</h3>
 
 
 				<ul>
+					<!--This is the items under the "Sample student work" section-->
+					
 					<li>
 						<a href="https://vimeo.com/123253559" target="_blank">“Transmissions from the Technological Sublime”</a>
 						A video completed as part of Michael Trommer’s MFA project. Intended as a large-scale, panoramic audio-visual installation. Sound is disseminated via 6 regular channels (hexagonal array) + 1 subwoofer (center/front). Original video is 5760 x 1080 dpi, to be projected via 3 synchronized HD projectors.
