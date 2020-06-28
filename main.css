@@ -227,6 +227,11 @@ img.smaller {
 		position: fixed;
 	}
 	
+	h3.contact {
+		top: 2rem;
+		right: 2rem;
+	}
+	
 	.wrapper {
 		grid-template: 10rem 1fr / 1fr;
 	}
