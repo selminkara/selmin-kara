@@ -33,10 +33,6 @@
 
 * {
 	font-size: 18px;
-	/*font-family: 'Karla', sans-serif;*/
-	/*letter-spacing: -0.4px;*/
-	/*font-family: 'DM Sans', sans-serif;*/
-	/*font-family: 'Gilda Display', serif;*/
 	font-family: 'PT Serif', serif;
 	font-family: 'Mate', serif;
 
@@ -168,12 +164,14 @@ footer a:hover {
 img {
 	width: 100%;
 	margin-top: 1rem;
-
-	/*mix-blend-mode: multiply;*/
 }
 
 img:hover {
 	filter: none;
+}
+
+img.smaller {
+	width: 25%;
 }
 
 .wrapper {
