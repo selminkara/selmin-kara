@@ -218,3 +218,17 @@ footer {
 
 
 
+
+
+
+
+
+@media only screen and (max-width: 660px) {
+	
+	.wrapper {
+		grid-template: 10rem 1fr / 1fr;
+	}
+	
+}
+
+
