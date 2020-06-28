@@ -208,13 +208,6 @@ img.smaller {
 	height: calc(100vh - 2rem);
 }
 
-footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	margin: 0rem 0rem 1rem 2rem;
-}
-
 
 
 
@@ -225,6 +218,15 @@ footer {
 
 @media only screen and (max-width: 660px) {
 	
+	header {
+		overflow: auto;
+  		white-space: nowrap;
+	}
+	
+	h1.title {
+		position: fixed;
+	}
+	
 	.wrapper {
 		grid-template: 10rem 1fr / 1fr;
 	}
@@ -234,7 +236,7 @@ footer {
 	}
 	
 	div.cv2 {
-		grid-template: auto / 1fr 2fr;
+		grid-template: auto / 1fr 3fr;
 	}
 	
 }
