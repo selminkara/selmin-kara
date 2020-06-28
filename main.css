@@ -195,7 +195,7 @@ img.smaller {
 .section {
 	opacity: 0.5;
 
-	width: calc(100% - 1rem);
+	width: calc(100% - 0rem);
 	padding: 0rem 2rem 2rem 2rem;
 	margin: 1rem -2rem 1rem -2rem;
 }
